@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Mon Oct  5 12:15:18 2020
+# Process ID: 11804
+# Current directory: C:/Users/aajos/Documents/GitHub/Lab06/Lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17552 C:\Users\aajos\Documents\GitHub\Lab06\Lab06\Lab06.xpr
+# Log file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06/vivado.log
+# Journal file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets sim_2 ]
+source sseg_decoder_test.tcl
+close_sim

@@ -1,7 +1,7 @@
 0.7
-2020.1
-May 27 2020
-20:09:33
-H:/Lab06/Lab06/Lab06.sim/sim_2/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-H:/Lab06/system_verilog_code/sseg_decoder.sv,1601574227,systemVerilog,,H:/Lab06/system_verilog_code/sseg_decoder_test.sv,,sseg_decoder,,,,,,,,
-H:/Lab06/system_verilog_code/sseg_decoder_test.sv,1601574756,systemVerilog,,,,sseg_decoder_test,,,,,,,,
+2020.1.1
+Aug  5 2020
+23:19:43
+C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.sim/sim_2/behav/xsim/glbl.v,1601593796,verilog,,,,glbl,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/sseg_decoder.sv,1601593796,systemVerilog,,C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/sseg_decoder_test.sv,,sseg_decoder,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/sseg_decoder_test.sv,1601593796,systemVerilog,,,,sseg_decoder_test,,,,,,,,
