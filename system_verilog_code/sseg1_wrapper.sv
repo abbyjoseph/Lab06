@@ -34,7 +34,7 @@ sseg1 my_sseg1(
     .sel(sw[15]),
     .seg_un(an[3:2]),
     .dp(dp),
-    .sseg(seg),
+    .seg(seg),
     .seg_L(an[1]),
     .seg_R(an[0])
     );
