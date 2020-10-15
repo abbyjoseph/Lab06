@@ -1,0 +1,186 @@
+/*
+
+Xilinx Vivado v2020.1.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2960000 on Wed Aug  5 22:57:20 MDT 2020
+IP Build: 2956692 on Thu Aug  6 01:41:30 MDT 2020
+
+Process ID (PID): 7392
+License: Customer
+
+Current time: 	Wed Oct 14 14:46:36 CDT 2020
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3240x2160
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	aajos
+User home directory: C:/Users/aajos
+User working directory: C:/Users/aajos/Documents/GitHub/Lab06/Lab06
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/aajos/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/aajos/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/aajos/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/aajos/Documents/GitHub/Lab06/Lab06/vivado.log
+Vivado journal file location: 	C:/Users/aajos/Documents/GitHub/Lab06/Lab06/vivado.jou
+Engine tmp dir: 	C:/Users/aajos/Documents/GitHub/Lab06/Lab06/.Xil/Vivado-7392-DESKTOP-7MFM3D9
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,005 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\aajos\Documents\GitHub\Lab06\Lab06\Lab06.xpr. Version: Vivado v2020.1.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 103 MB (+105761kb) [00:00:10]
+// [Engine Memory]: 1,005 MB (+902855kb) [00:00:10]
+// [GUI Memory]: 121 MB (+13498kb) [00:00:11]
+// [GUI Memory]: 142 MB (+15572kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3561 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 83 MB. Current time: 10/14/20, 2:46:36 PM CDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.398 ; gain = 0.000 
+// Project name: Lab06; location: C:/Users/aajos/Documents/GitHub/Lab06/Lab06; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), my_sseg1 : sseg1 (sseg1.sv)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), my_sseg1 : sseg1 (sseg1.sv)]", 2, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// [GUI Memory]: 159 MB (+9806kb) [00:00:25]
+selectCodeEditor("sseg1.sv", 47, 254); // bP (w, cs)
+typeControlKey((HResource) null, "sseg1.sv", 'c'); // bP (w, cs)
+// Elapsed time: 233 seconds
+selectCodeEditor("sseg1.sv", 599, 383); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("sseg1_wrapper.sv", 46, 484); // bP (w, cs)
+typeControlKey((HResource) null, "sseg1_wrapper.sv", 'c'); // bP (w, cs)
+// [GUI Memory]: 176 MB (+9621kb) [00:07:44]
+// [GUI Memory]: 191 MB (+6347kb) [00:08:55]
+// [GUI Memory]: 204 MB (+4236kb) [00:10:07]
+// Elapsed time: 364 seconds
+selectCodeEditor("sseg1_wrapper.sv", 294, 628); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // m (l, cs)
+// Elapsed time: 391 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_06.xdc]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_06.xdc]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 183 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // m (l, cs)
+// Elapsed time: 65 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 101 MB. Current time: 10/14/20, 3:16:40 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1935117 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 92 MB. Current time: 10/14/20, 4:17:19 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  2354465 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 91 MB. Current time: 10/14/20, 4:56:43 PM CDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1184 ms. Increasing delay to 3552 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1750 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 91 MB. Current time: 10/14/20, 5:26:43 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1437531 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 91 MB. Current time: 10/14/20, 6:14:37 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1100 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 91 MB. Current time: 10/14/20, 9:35:50 PM CDT
+// Elapsed time: 23386 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), my_sseg1 : sseg1 (sseg1.sv)]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), my_sseg1 : sseg1 (sseg1.sv)]", 2); // B (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_06.xdc", 3); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_3]", 9); // B (F, cs)
+// Elapsed time: 747 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // m (l, cs)
+// Elapsed time: 107 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 2); // m (l, cs)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 9 ; 0 ; 0.0 ; 0 ; 0 ; Fri Oct 09 15:42:44 CDT 2020 ; 00:00:54 ; Vivado Synthesis Defaults (Vivado Synthesis 2020) ; Vivado Synthesis Default Reports (Vivado Synthesis 2020) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 0, (String) null, 11, true); // az (J, cs) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.5s
+selectCodeEditor("sseg1_wrapper.sv", 343, 977); // bP (w, cs)
+// Elapsed time: 189 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_06.xdc]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_06.xdc]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+// Elapsed time: 88 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 2); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 94 MB. Current time: 10/14/20, 10:05:53 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 94 MB. Current time: 10/14/20, 10:35:53 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 93 MB. Current time: 10/14/20, 11:05:54 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  543536 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2574 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 93 MB. Current time: 10/14/20, 11:38:18 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 93 MB. Current time: 10/15/20, 12:08:16 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  5212568 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 93 MB. Current time: 10/15/20, 1:58:39 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  540685 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 93 MB. Current time: 10/15/20, 2:28:40 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  120178 ms.

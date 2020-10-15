@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri Oct  9 13:05:59 2020
+# Process ID: 20680
+# Current directory: C:/Users/aajos/Documents/GitHub/Lab06/Lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19396 C:\Users\aajos\Documents\GitHub\Lab06\Lab06\Lab06.xpr
+# Log file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06/vivado.log
+# Journal file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+launch_simulation -simset [get_filesets sim_2 ]
+source sseg_decoder_test.tcl
+close_sim
+current_fileset -simset [ get_filesets sim_1 ]
+launch_simulation
+source mux2_4b_test.tcl
+create_fileset -simset sim_3
+set_property SOURCE_SET sources_1 [get_filesets sim_3]
+close [ open C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/sseg1_test.sv w ]
+add_files -fileset sim_3 C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/sseg1_test.sv
+update_compile_order -fileset sim_3
+close_sim
+launch_simulation
+source mux2_4b_test.tcl
+close_sim
+current_fileset -simset [ get_filesets sim_3 ]
+launch_simulation -simset [get_filesets sim_3 ]
+source sseg1_wrapper.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sseg1_test [get_filesets sim_3]
+set_property top_lib xil_defaultlib [get_filesets sim_3]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_3
+launch_simulation -simset [get_filesets sim_3 ]
+source sseg1_test.tcl
+close_sim

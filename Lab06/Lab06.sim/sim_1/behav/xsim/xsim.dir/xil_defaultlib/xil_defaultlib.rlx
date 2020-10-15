@@ -1,7 +1,7 @@
 0.7
-2020.1
-May 27 2020
-20:09:33
-H:/Lab06/Lab06/Lab06.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-H:/Lab06/system_verilog_code/mux2_4b.sv,1601570538,systemVerilog,,H:/Lab06/system_verilog_code/mux2_4b_test.sv,,mux2_4b,,,,,,,,
-H:/Lab06/system_verilog_code/mux2_4b_test.sv,1601573462,systemVerilog,,,,mux2_4b_test,,,,,,,,
+2020.1.1
+Aug  5 2020
+23:19:43
+C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.sim/sim_1/behav/xsim/glbl.v,1601593796,verilog,,,,glbl,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/mux2_4b.sv,1601593796,systemVerilog,,C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/mux2_4b_test.sv,,mux2_4b,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab06/system_verilog_code/mux2_4b_test.sv,1601593796,systemVerilog,,,,mux2_4b_test,,,,,,,,

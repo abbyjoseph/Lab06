@@ -2,58 +2,13 @@
 # Vivado v2020.1.1 (64-bit)
 # SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
 # IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
-# Start of session at: Fri Oct  9 13:05:59 2020
-# Process ID: 20680
+# Start of session at: Wed Oct 14 14:46:20 2020
+# Process ID: 7392
 # Current directory: C:/Users/aajos/Documents/GitHub/Lab06/Lab06
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19396 C:\Users\aajos\Documents\GitHub\Lab06\Lab06\Lab06.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13460 C:\Users\aajos\Documents\GitHub\Lab06\Lab06\Lab06.xpr
 # Log file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06/vivado.log
 # Journal file: C:/Users/aajos/Documents/GitHub/Lab06/Lab06\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.xpr
 update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_run impl_1
-close_design
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-reset_run impl_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_hw_manager
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab06/Lab06/Lab06.runs/impl_1/sseg1_wrapper.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_hw_manager
