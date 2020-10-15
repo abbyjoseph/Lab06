@@ -39,7 +39,7 @@ module sseg_decoder(
     4'h9: sseg = 7'b0010000;
     4'hA: sseg = 7'b0001000;
     4'hB: sseg = 7'b0000011;   
-    4'hC: sseg = 7'b0101011;
+    4'hC: sseg = 7'b1000110;
     4'hD: sseg = 7'b0100001;   
     4'hE: sseg = 7'b0000110;
     default: sseg = 7'b0001110;   // in the case of an open/short/anything that's not an option
